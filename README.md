@@ -11,7 +11,6 @@ Este proyecto consta de los siguientes archivos:
 - **`main.py`**: El script principal donde se ejecuta el análisis de los datos.
 - **`Data.xlsx`**: Un archivo de ejemplo con los datos de cuentas de redes sociales y sus seguidores (reales y sospechosos).
 - **`requirements.txt`**: El archivo de dependencias del proyecto, que contiene todas las librerías necesarias para ejecutar el código.
-- **`.idea/`**: Carpeta creada por PyCharm que contiene la configuración del proyecto.
 
 ## Instalación
 
