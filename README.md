@@ -19,3 +19,40 @@ Para instalar y ejecutar BotDetector, sigue estos pasos:
 1. Clona el repositorio en tu máquina local:
    ```bash
    git clone https://github.com/BluerZu/BotDetector.git
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd BotDetector
+   
+3. Crea un entorno virtual (opcional, pero recomendado):
+
+   En Windows:
+
+   ```bash
+   python -m venv .venv
+
+4. Activa el entorno virtual:
+   - En Windows:
+
+     ```bash
+     .venv\Scripts\activate
+     ```
+     
+5. Instala las dependencias del proyecto:
+
+   ```bash
+   pip install -r requirements.txt
+
+## Uso
+
+1. Asegúrate de tener un archivo de datos con las cuentas y los seguidores (como `Data.xlsx`).
+2. Ejecuta el script principal para analizar las cuentas:
+
+   ```bash
+   python main.py
+
+## Requisitos
+
+- **Python 3.x**
+- Las dependencias del proyecto se encuentran en el archivo `requirements.txt`.
